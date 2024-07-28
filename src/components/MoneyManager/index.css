@@ -1,0 +1,121 @@
+/* Write your CSS here */
+.full-bg {
+  width: 80%;
+  margin: auto;
+}
+
+.inner1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 25px;
+  background-position: center;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.head1 {
+  font-family: Roboto;
+  font-weight: 500;
+}
+.span1 {
+  color: #0b69ff;
+  font-weight: bold;
+}
+.card-ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.down-part {
+  margin-bottom: 30px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.down1 {
+  min-width: 35%;
+  min-height: 500px;
+  border-radius: 20px;
+  border: 1px solid #7e858e;
+  padding: 30px;
+  margin-right: 30px;
+}
+.head2 {
+  color: #7e858e;
+  font-size: 17px;
+  font-style: Roboto;
+}
+.title {
+  color: #7e858e;
+}
+.input1 {
+  width: 95%;
+  height: 40px;
+  border: 1px solid #7e858e;
+  outline: 0;
+  padding-left: 10px;
+}
+.fullfrom {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  gap: 20px;
+}
+.btn1 {
+  background-color: #0b69ff;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  margin-top: 15px;
+}
+
+.down2 {
+  min-height: 30px;
+  display: flex;
+  flex-grow: 1;
+  border-radius: 20px;
+  border: 1px solid #7e858e;
+  padding: 30px;
+  flex-direction: column;
+}
+.table1 {
+  width: 92%;
+  border: 1px solid #7e858e;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.headings {
+  display: flex;
+  flex-direction: row;
+  gap: 193px;
+  font-size: 19px;
+  font-weight: bold;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 13px;
+  padding-left: 30px;
+  width: 80%;
+  color: #7e858e;
+}
+p {
+  margin: 0;
+}
+.ulist {
+  list-style: none;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  width: 100%;
+}

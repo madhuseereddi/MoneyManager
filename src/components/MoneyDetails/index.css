@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.card-bg {
+  height: 100px;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+.img1 {
+  height: 50px;
+}
+.inner-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+.card-p1 {
+  margin: 4px;
+  color: #334155;
+}
+.card-p2 {
+  margin: 4px;
+  font-size: 22px;
+  font-family: Roboto;
+  color: #334155;
+}
+.balance-card {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.income-card {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.expense-card {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
